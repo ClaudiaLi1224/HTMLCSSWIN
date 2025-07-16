@@ -1,0 +1,96 @@
+/* 這是 20250713註解 */
+.header{
+    width:500px; 
+    height:500px; 
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.box1{
+    width: 300px;
+    height:300px; 
+    background-color: lightpink;
+    position: absolute;
+    left:-100px; 
+    top:-100px; 
+    z-index: 1;
+}
+
+.box2{
+    width: 300px;
+    height:300px; 
+    background-color: lightblue;
+    position: absolute;
+    left:-200px; 
+    top:-200px; 
+    z-index:2; 
+}
+
+.box3{
+    width: 300px;
+    height:300px; 
+    background-color: lightgray;
+    position: absolute;
+    left:-300px; 
+    top:-300px; 
+    z-index:3; 
+}
+
+.ProductList{
+    width:600px; 
+}
+
+.ProductList li{
+    position: relative;
+    float:left; 
+    width:184px; 
+    border:1px solid purple; 
+    margin-top:10px;
+    margin-right:2px ;
+    margin-left:2px ;
+    padding: right 2px;
+}
+
+.ProductList .sale{
+position:absolute;
+top:0; 
+left:0; 
+background-color: lightpink;
+}
+
+.ProductList img{
+width:100%; 
+height:auto; 
+display:block; 
+}
+
+.ProductList li h2{
+font-weight:bold; 
+color:brown; 
+margin-bottom: 20px;
+}
+
+.ProductList li span{
+display:block; 
+font-weight:bold; 
+color:darkblue; 
+margin-bottom: 20px;
+}
+
+.box{
+width:100px; 
+height:100PX; 
+background-color: blueviolet;
+position: fixed;
+bottom:20px; 
+right:20px; 
+}
+
+.clear{
+    clear:both; 
+    height:0; 
+    display:block; 
+}
+h2{
+    color:pink; 
+}
